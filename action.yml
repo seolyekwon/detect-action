@@ -1,4 +1,4 @@
-name: 'Detect Rapid Scan Action'
+ame: 'Detect Rapid Scan Action'
 branding:
   icon: 'shield'
   color: 'purple'
@@ -31,5 +31,6 @@ inputs:
     description: 'Acceptable Values: TRUE, FALSE. If TRUE, Detect will trust the Black Duck certificate even if the certificate is not in the keystore.'
     default: 'TRUE'
 runs:
-  using: 'node12'
+  #using: 'node12'
+  uing: 'node16'
   main: 'dist/index.js'
