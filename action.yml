@@ -32,5 +32,5 @@ inputs:
     default: 'TRUE'
 runs:
   #using: 'node12'
-  uing: 'node16'
+  using: 'node16'
   main: 'dist/index.js'
